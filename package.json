@@ -1,0 +1,14 @@
+{
+  "name": "verhoeff-core",
+  "version": "0.1.0",
+  "description": "Verhoeff check digits: catches single-digit errors and adjacent transpositions. Zero runtime dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/verhoeff.test.js",
+    "demo": "node bin/verhoeff.mjs --assert"
+  }
+}
